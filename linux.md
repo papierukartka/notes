@@ -1028,6 +1028,12 @@ ping -c 4 wp.pl | mailx -s "aliveness" root
 
 ### wget
 
+#### Check if a page's accessible, don't enter it
+
+```sh
+wget --spider --timeout=1 example.org
+```
+
 #### Download a file
 
 ```sh
