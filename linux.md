@@ -1052,6 +1052,18 @@ mpv video.mkv --sub-file=video-subtitles.txt
 
 ### git
 
+#### list branches on remote
+
+```sh
+git branch -r
+```
+
+#### remove a branch on remote
+
+```sh
+git push -d remotename branchname
+```
+
 #### cloning
 
 ```sh
